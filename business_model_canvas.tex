@@ -1,0 +1,530 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  oneside,
+  open=any]{scrbook}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{hyphenat}
+\usepackage{ifthen}
+\usepackage{calc}
+\usepackage{calculator}
+
+\usepackage{graphicx}
+\usepackage{wallpaper}
+
+\usepackage{geometry}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{afterpage}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{fadings}
+\usepackage[pagecolor=none]{pagecolor}
+
+
+% Set the titlepage font families
+
+
+
+
+
+
+
+% Set the coverpage font families
+
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Business Plan -- Research Ready},
+  pdfauthor={Christiaan Verhoef; Research Ready Team; Partner Institutions},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Business Plan -- Research Ready}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{AI Infrastructure, Automation and Reproducible Research
+Systems}
+\author{Christiaan Verhoef \and Research Ready Team \and Partner
+Institutions}
+\date{}
+\begin{document}
+%%%%% begin titlepage extension code
+
+  \begin{frontmatter}
+
+\begin{titlepage}
+
+%%% TITLE PAGE START
+
+% Set up alignment commands
+%Page
+\newcommand{\titlepagepagealign}{
+\ifthenelse{\equal{left}{right}}{\raggedleft}{}
+\ifthenelse{\equal{left}{center}}{\centering}{}
+\ifthenelse{\equal{left}{left}}{\raggedright}{}
+}
+
+
+\newcommand{\titleandsubtitle}{
+% Title and subtitle
+{{\large{\bfseries{\nohyphens{Business Plan -- Research Ready}}}}\par
+}%
+
+\vspace{\betweentitlesubtitle}
+{
+{\large{\textit{\nohyphens{AI Infrastructure, Automation and
+Reproducible Research Systems}}}}\par
+}}
+\newcommand{\titlepagetitleblock}{
+\titleandsubtitle
+}
+
+\newcommand{\authorstyle}[1]{{\large{#1}}}
+
+\newcommand{\affiliationstyle}[1]{{\large{#1}}}
+
+\newcommand{\titlepageauthorblock}{
+{\authorstyle{\nohyphens{Christiaan
+Verhoef}{\textsuperscript{1}}\textsuperscript{,}{\textsuperscript{2}},  \nohyphens{Research
+Ready Team}{\textsuperscript{3}} and \nohyphens{Partner
+Institutions}{\textsuperscript{4}}}}}
+
+\newcommand{\titlepageaffiliationblock}{
+\hangindent=1em
+\hangafter=1
+{\affiliationstyle{
+{1}.~Research Ready,~The Netherlands
+\par\hangindent=1em\hangafter=1{2}.~Value Chain Hackers Lab,~Supply
+Chain Finance Lectorate,~Windesheim University of Applied Sciences
+\par\hangindent=1em\hangafter=1{3}.~Value Chain Hackers
+Network,~Netherlands / Europe
+\par\hangindent=1em\hangafter=1{4}.~Academic \& Industry
+Collaborators,~Global
+
+
+\vspace{1\baselineskip} 
+}}
+}
+\newcommand{\headerstyled}{%
+{Research Ready}
+}
+\newcommand{\footerstyled}{%
+{\large{Research Ready\\
+Tools for Applied AI \& Reproducible Research\\
+https://github.com/Value-Chain-Hackers\\}}
+}
+\newcommand{\datestyled}{%
+{}
+}
+
+
+\newcommand{\titlepageheaderblock}{\headerstyled}
+
+\newcommand{\titlepagefooterblock}{
+\footerstyled
+}
+
+\newcommand{\titlepagedateblock}{
+\datestyled
+}
+
+%set up blocks so user can specify order
+\newcommand{\titleblock}{\newlength{\betweentitlesubtitle}
+\setlength{\betweentitlesubtitle}{\baselineskip}
+{
+
+{\titlepagetitleblock}
+}
+
+\vspace{4\baselineskip}
+}
+
+\newcommand{\authorblock}{{\titlepageauthorblock}
+
+\vspace{2\baselineskip}
+}
+
+\newcommand{\affiliationblock}{{\titlepageaffiliationblock}
+
+\vspace{1pt}
+}
+
+\newcommand{\logoblock}{{\includegraphics[width=0.25\textheight]{img/logo.png}}
+
+\vspace{2\baselineskip}
+}
+
+\newcommand{\footerblock}{{\titlepagefooterblock}
+
+\vspace{1pt}
+}
+
+\newcommand{\dateblock}{}
+
+\newcommand{\headerblock}{{\titlepageheaderblock
+
+\vspace{0pt}
+}}
+\newgeometry{top=3in,bottom=1in,right=1in,left=1in}
+% background image
+\newlength{\bgimagesize}
+\setlength{\bgimagesize}{0.5\paperwidth}
+\LENGTHDIVIDE{\bgimagesize}{\paperwidth}{\theRatio} % from calculator pkg
+\ThisULCornerWallPaper{\theRatio}{img/corner-bg.png}
+
+\thispagestyle{empty} % no page numbers on titlepages
+
+
+\newcommand{\vrulecode}{\textcolor{black}{\rule{\vrulewidth}{\textheight}}}
+\newlength{\vrulewidth}
+\setlength{\vrulewidth}{1pt}
+\newlength{\B}
+\setlength{\B}{\ifdim\vrulewidth > 0pt 0.05\textwidth\else 0pt\fi}
+\newlength{\minipagewidth}
+\ifthenelse{\equal{left}{left} \OR \equal{left}{right} }
+{% True case
+\setlength{\minipagewidth}{\textwidth - \vrulewidth - \B - 0.1\textwidth}
+}{
+\setlength{\minipagewidth}{\textwidth - 2\vrulewidth - 2\B - 0.1\textwidth}
+}
+\ifthenelse{\equal{left}{left} \OR \equal{left}{leftright}}
+{% True case
+\raggedleft % needed for the minipage to work
+\vrulecode
+\hspace{\B}
+}{%
+\raggedright % else it is right only and width is not 0
+}
+% [position of box][box height][inner position]{width}
+% [s] means stretch out vertically; assuming there is a vfill
+\begin{minipage}[b][\textheight][s]{\minipagewidth}
+\titlepagepagealign
+\titleblock
+
+\authorblock
+
+\affiliationblock
+
+\vfill
+
+\logoblock
+
+\footerblock
+\par
+
+\end{minipage}\ifthenelse{\equal{left}{right} \OR \equal{left}{leftright} }{
+\hspace{\B}
+\vrulecode}{}
+\clearpage
+\restoregeometry
+%%% TITLE PAGE END
+\end{titlepage}
+\setcounter{page}{1}
+\end{frontmatter}
+
+%%%%% end titlepage extension code
+
+
+\mainmatter
+\chapter{Business Model Canvas}\label{business-model-canvas}
+
+\section{Key Partners}\label{key-partners}
+
+\begin{itemize}
+\tightlist
+\item
+  Universities and applied science labs\\
+\item
+  Research groups focused on reproducibility\\
+\item
+  Industry partners providing datasets\\
+\item
+  Cloud or on-prem compute providers\\
+\item
+  Open-source AI communities\\
+\item
+  Tooling partners (n8n, Quarto, Jupyter, OpenWebUI)
+\end{itemize}
+
+\section{Key Activities}\label{key-activities}
+
+\begin{itemize}
+\tightlist
+\item
+  Building AI-assisted research workflows\\
+\item
+  Automating reporting and analysis\\
+\item
+  Integrating RStudio, Jupyter, n8n, OpenWebUI\\
+\item
+  Maintaining reproducible pipelines\\
+\item
+  Training researchers on tools and AI adoption\\
+\item
+  Supporting institutions with deployments
+\end{itemize}
+
+\section{Key Resources}\label{key-resources}
+
+\begin{itemize}
+\tightlist
+\item
+  AI stack (OpenWebUI, embeddings, automation workflows)\\
+\item
+  Expertise in research design and reproducible workflows\\
+\item
+  On-premise server infrastructure\\
+\item
+  Quarto templates and automation scripts\\
+\item
+  Network of collaborators (VCH, Windesheim, NICE, etc.)
+\end{itemize}
+
+\section{Value Proposition}\label{value-proposition}
+
+\begin{itemize}
+\tightlist
+\item
+  Faster, cleaner, and repeatable research workflows\\
+\item
+  Automated reporting that eliminates manual work\\
+\item
+  Clear reproducibility and version control\\
+\item
+  AI systems tailored to academic and research contexts\\
+\item
+  Reduced tool fragmentation for institutions\\
+\item
+  Structured research environment for students
+\end{itemize}
+
+\section{Customer Relationships}\label{customer-relationships}
+
+\begin{itemize}
+\tightlist
+\item
+  High-touch onboarding and consulting\\
+\item
+  Long-term support contracts\\
+\item
+  Close collaboration with research teams\\
+\item
+  Automated systems reducing daily support load\\
+\item
+  Documentation-first approach\\
+\item
+  Community channels for ongoing updates
+\end{itemize}
+
+\section{Channels}\label{channels}
+
+\begin{itemize}
+\tightlist
+\item
+  Direct outreach to research institutions\\
+\item
+  Demonstration workshops and training days\\
+\item
+  LinkedIn and professional networks\\
+\item
+  GitHub repositories and open-source visibility\\
+\item
+  Conference presentations\\
+\item
+  Word of mouth through institutional partners
+\end{itemize}
+
+\section{Customer Segments}\label{customer-segments}
+
+\begin{itemize}
+\tightlist
+\item
+  Research groups in applied sciences\\
+\item
+  Lectoren / professors running research programs\\
+\item
+  Universities wanting internal AI systems\\
+\item
+  SMEs needing reproducible sustainability reporting\\
+\item
+  NGOs and government-linked research units
+\end{itemize}
+
+\section{Cost Structure}\label{cost-structure}
+
+\begin{itemize}
+\tightlist
+\item
+  Server and infrastructure maintenance\\
+\item
+  Development time for automation and AI workflows\\
+\item
+  Support and training hours\\
+\item
+  Integration and custom feature development\\
+\item
+  Occasional cloud compute\\
+\item
+  Administrative overhead
+\end{itemize}
+
+\section{Revenue Streams}\label{revenue-streams}
+
+\begin{itemize}
+\tightlist
+\item
+  Subscription access to hosted research tooling\\
+\item
+  On-prem setup, configuration, and deployment\\
+\item
+  Research automation training programs\\
+\item
+  AI workflow consulting\\
+\item
+  Custom integration projects\\
+\item
+  SLA-based support and maintenance contracts
+\end{itemize}
+
+
+\backmatter
+
+
+\end{document}

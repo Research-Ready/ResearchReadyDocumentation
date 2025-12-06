@@ -1,0 +1,2203 @@
+---
+title: Business Plan – Research Ready
+subtitle: AI Infrastructure, Automation and Reproducible Research Systems
+
+author:
+  - name: Christiaan Verhoef
+    affiliations:
+      - name: Research Ready
+        address: The Netherlands
+      - name: Value Chain Hackers Lab
+        department: Supply Chain Finance Lectorate
+        address: Windesheim University of Applied Sciences
+
+  - name: Research Ready Team
+    affiliations:
+      - name: Value Chain Hackers Network
+        address: Netherlands / Europe
+
+  - name: Partner Institutions
+    affiliations:
+      - name: Academic & Industry Collaborators
+        address: Global
+
+bibliography: references.bib
+
+format: 
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    number-sections: true
+    toc: true
+    lof: true
+    lot: true
+    titlepage: "bg-image"
+    titlepage-bg-image: "img/corner-bg.png"
+    titlepage-logo: "img/logo.png"
+    titlepage-header: "Research Ready"
+    titlepage-footer: |
+      Research Ready\
+      Tools for Applied AI & Reproducible Research\
+      https://github.com/Value-Chain-Hackers\
+    keep-tex: true
+---
+
+
+# Executive Summary
+
+## Purpose of the Business Plan  
+A short overview of the company, strategic intent, and expected outcomes.
+
+## Vision and Mission  
+- **Vision:**  
+  A concise statement describing what long-term impact the company aims to create.  
+- **Mission:**  
+  How the company operates today to realise that vision.
+
+## Strategic Highlights  
+Provide 4 to 6 high-level strategic messages.
+
+**Example:**
+- Strong market demand in research automation and AI infrastructure.  
+- Opportunity to modernise research practices at scale.  
+- Diversified revenue model.  
+- Strong early traction with institutional partners.
+
+## Financial Snapshot (High-Level)  
+Create placeholders for revenue, cost base, and profitability projections.
+
+| Metric | Year 1 | Year 3 | Notes |
+|-------|--------|--------|-------|
+| Revenue |  |  |  |
+| Gross Margin |  |  |  |
+| EBITDA |  |  |  |
+| Investment Need |  |  |  |
+
+
+# Problem Definition
+
+## Core Market Problem  
+Describe the structural problem in the industry.
+
+**Prompts to fill:**
+- What friction or inefficiency is common in the target market?  
+- What is the financial or operational cost of the problem?  
+- Who is affected? Why now?  
+
+## Evidence of the Problem  
+Describe data or facts that prove the problem exists.
+
+Examples:
+- Time wasted in manual workflows  
+- Confusion due to fragmented tools  
+- Lack of reproducibility in research  
+- Skills gap for AI adoption  
+
+## Impact of Inaction  
+What happens if no solution is implemented?
+
+| Category | Impact |
+|----------|---------|
+| Financial | Lost revenue, higher cost |
+| Operational | Slower projects, bottlenecks |
+| Strategic | Inability to scale or innovate |
+| Compliance | Rising pressure from regulations |
+
+## Stakeholders Affected  
+List groups impacted by the problem.
+
+- Research teams  
+- Educational institutions  
+- Industry partners  
+- Students and trainees  
+- Compliance officers  
+
+# Market Context
+
+## Market Size and Growth  
+Add placeholders for TAM, SAM, SOM.
+
+| Market Layer | Value | Notes |
+|--------------|--------|-------|
+| Total Addressable Market (TAM) |  | Sector-wide demand |
+| Serviceable Available Market (SAM) |  | Region or segment |
+| Serviceable Obtainable Market (SOM) |  | Practical share |
+
+## Industry Trends  
+Identify 4 to 6 key trends affecting this market.
+
+Examples:
+- Shift toward AI-assisted research  
+- Increased demand for automation  
+- Rising interest in data reproducibility  
+- Growth in digital transformation budgets  
+
+## Customer Demand Drivers  
+Describe forces increasing demand for your solution.
+
+- Academic teams pressured to produce more with fewer resources  
+- Compliance requirements (CSRD, CSDDD, data transparency)  
+- Students expecting AI-first learning environments  
+- Institutions wanting in-house AI capability  
+
+## Competitive and Substitute Landscape  
+Provide a high-level view of competitors and alternative solutions.
+
+| Competitor Type | Example | Strengths | Weaknesses |
+|-----------------|----------|-----------|------------|
+| Direct Competitors |  |  |  |
+| Indirect Competitors |  |  |  |
+| Internal Solutions |  |  |  |
+
+## Barriers to Entry  
+What makes this market difficult for new entrants?
+
+- Technical complexity  
+- Need for multidisciplinary expertise  
+- Trust and credibility requirements in education and research  
+- Integration challenges  
+
+## Regulatory and Policy Landscape  
+If relevant, list the regulatory frameworks that influence the market.
+
+Examples:
+- GDPR  
+- CSRD  
+- Digital transformation mandates in education  
+
+
+# Solution Overview
+
+##  Solution Definition  
+A concise description of the solution and its purpose.
+
+**Prompts to complete:**
+- What is the core solution?  
+- What measurable outcome does it create?  
+- How does it resolve the stated problem?  
+- Who benefits directly and indirectly?
+
+
+##  Solution Architecture (High-Level)  
+Describe the macro-level structure of the solution.
+
+Component categories:
+- Input layer  
+- Processing and automation layer  
+- AI inference or analytics layer  
+- Storage and data models  
+- Interfaces and outputs  
+- Integrations  
+- Deployment model  
+
+**Placeholder diagram (replace with mermaid or image if needed):**
+```mermaid
+flowchart LR
+    A[User Inputs] --> B[Interface Layer<br/>(Web, Desktop, API)]
+    B --> C[Processing & Automation Layer<br/>(Pipelines, Validation, Scheduling)]
+    C --> D[AI & Analytics Layer<br/>(Models, Rules, NLP, Summaries)]
+    D --> E[Data Layer<br/>(Databases, File Storage, Metadata)]
+    E --> F[Output Layer<br/>(Reports, Dashboards, Exports)]
+    C --> G[Integrations<br/>(External APIs, LMS, Research Tools)]
+```
+
+
+## Key Features and Capabilities  
+
+| Feature | Description | Value Delivered |
+|---------|-------------|------------------|
+| Workflow Automation | Automatically processes routines | Efficiency, consistency |
+| AI-supported Insights | Summarisation, pattern detection | Better decisions |
+| Reporting Engine | Generates reproducible outputs | Higher quality research |
+| Integrations | Connects with existing systems | Easy adoption |
+| Security & Compliance | Safe data processing | Reduced risk |
+
+
+## User Workflow  
+
+**Example structure (customise as needed):**
+1. User logs in through a web or desktop interface  
+2. User uploads data or connects a datasource  
+3. System validates and pre-processes the data  
+4. Automated workflows run analyses or transformations  
+5. AI module generates insights or summaries  
+6. User receives outputs (reports, dashboards, models)  
+7. Feedback loop improves future predictions  
+
+```mermaid
+flowchart TD
+    A[Login / Access] --> B[Upload Data<br/>(or connect datasource)]
+    B --> C[Data Validation<br/>(format, completeness)]
+    C --> D[Automated Processing<br/>(workflows, transformations)]
+    D --> E[AI Analysis<br/>(summaries, extraction, insights)]
+    E --> F[Output Generation<br/>(reports, dashboards, exports)]
+    F --> G[Review & Feedback Loop<br/>(improves future accuracy)]
+```
+
+
+## 4.5 Expected Outcomes  
+
+| Outcome Category | KPI | Expected Improvement |
+|------------------|-----|-----------------------|
+| Productivity | Hours per process | Reduction of 40–70 percent |
+| Quality | Error rate | Reduction to below 5 percent |
+| Insight | Time to insights | 2x to 5x acceleration |
+| Compliance | Traceability completeness | Significant improvement |
+| Cost | Operational cost | Lowered through automation |
+
+
+## 4.6 Solution Validation and Evidence  
+
+Use early tests, prototypes, or simulated performance.  
+R analysis helps quantify expected improvements.
+
+```mermaid
+flowchart TD
+    A[Input Data<br/>(raw research material)] --> B[Preprocessing<br/>(cleaning, structuring)]
+    B --> C[Automation Engine<br/>(rules, workflows)]
+    C --> D[AI Models<br/>(summaries, predictions, extraction)]
+    D --> E[Evaluation Layer<br/>(quality checks, manual review)]
+    E --> F[Metrics<br/>(accuracy, time saved, error rates)]
+    F --> G[Validation Report<br/>(evidence, benchmarks, outputs)]
+```
+
+
+## 4.7 Differentiators
+
+Possible categories:
+
+* Faster deployment than alternatives
+* Works with existing tools
+* Built with modular architecture
+* Designed for non-technical users
+* High level of automation
+* Integration of statistical analysis, AI, and reporting in one pipeline
+
+
+## 4.8 Technical Requirements and Dependencies
+
+List the components needed for deployment.
+
+Suggested structure:
+
+* OS requirements
+* Hardware and compute needs
+* Required runtimes (R, Python, Docker, etc)
+* Network configuration
+* Integration endpoints (APIs, databases)
+* Storage requirements
+
+
+## 4.9 KPIs for Measuring Success
+
+| KPI Category           | KPI Definition          | Target Benchmark     |
+| ---------------------- | ----------------------- | -------------------- |
+| Adoption               | Monthly active users    | X                    |
+| Operational Efficiency | Average cycle time      | Y percent reduction  |
+| Accuracy               | Output error rate       | < Z percent          |
+| Performance            | Dataset processing time | X seconds or minutes |
+| Satisfaction           | User feedback / NPS     | 40+                  |
+
+```mermaid
+flowchart LR
+    A[KPIs] --> B[Adoption]
+    A --> C[Operational Efficiency]
+    A --> D[Accuracy]
+    A --> E[Performance]
+    A --> F[Satisfaction]
+
+    B --> B1[Monthly Active Users]
+    C --> C1[Cycle Time Reduction]
+    D --> D1[Error Rate]
+    E --> E1[Processing Time]
+    F --> F1[NPS / Feedback Scores]
+```
+
+
+## 4.10 Future Enhancements
+
+| Enhancement          | Description                      | Expected Value              |
+| -------------------- | -------------------------------- | --------------------------- |
+| Predictive Analytics | ML-driven forecasting            | Insight improvements        |
+| New Integrations     | More data connectors             | Easier onboarding           |
+| Advanced Automation  | Multi-step intelligent workflows | Higher efficiency           |
+| Visual Dashboards    | Interactive insight layers       | Better decision-making      |
+| Scalability Upgrades | Horizontal or vertical scaling   | Support for larger datasets |
+
+```mermaid
+flowchart TD
+    A[Current System] --> B[Predictive Analytics]
+    A --> C[New Integrations]
+    A --> D[Advanced Automation]
+    A --> E[Visual Dashboards]
+    A --> F[Scalability Upgrades]
+
+    B --> B1[Forecasting Models]
+    C --> C1[Additional Data Connectors]
+    D --> D1[Multi-step Pipelines]
+    E --> E1[Interactive Views]
+    F --> F1[Higher Dataset Capacity]
+```
+
+
+# 5. Unique Value Proposition
+
+## 5.1 Core Value Proposition  
+A concise statement describing the unique value delivered to the customer.
+
+**Prompts to complete:**
+- What transformation does the customer experience?  
+- What measurable outcome improves?  
+- Why is this meaningfully better than alternatives?  
+
+
+## 5.2 Value Drivers  
+Describe the core elements that create value.
+
+| Value Driver | Description | Customer Impact |
+|--------------|-------------|------------------|
+| Speed | Accelerates key workflows | Faster delivery, higher throughput |
+| Automation | Removes manual steps | Lower operational cost |
+| Accuracy | Reduces human error | Higher data integrity |
+| Integration | Fits into existing environments | Low switching cost |
+| Intelligence | AI-supported insights | Better decisions |
+
+
+## 5.3 Customer Pain Relief  
+Identify the pains your solution eliminates.
+
+| Pain Point | How the Solution Addresses It |
+|------------|-------------------------------|
+| Manual processes | Automated workflows |
+| Fragmented tools | Unified ecosystem |
+| Slow reporting | Instant reproducible outputs |
+| Skill gaps | Guided AI support |
+
+
+## 5.4 Unique Strengths vs Competitors  
+Highlight differentiators using a simple comparison matrix.
+
+| Dimension | Your Solution | Alternative A | Alternative B |
+|-----------|----------------|----------------|----------------|
+| Setup Time |  |  |  |
+| Ease of Use |  |  |  |
+| Automation Depth |  |  |  |
+| AI Integration |  |  |  |
+| Total Cost |  |  |  |
+
+
+## 5.5 Evidence of Value  
+Placeholder for pilot data, testimonials, or performance benchmarks.
+
+
+## 5.6 Why Now
+
+Describe the strategic urgency.
+
+Prompts:
+
+* What market shift makes this moment ideal?
+* What technology maturity enables this capability?
+* What regulatory pressures increase demand?
+
+
+## 5.7 Proof of Differentiation
+
+Describe any proprietary elements.
+
+Examples:
+
+* Deployment methodology
+* Integrated toolchain
+* Unique automations
+* Data models
+* Domain-specialised workflows
+
+
+## 5.8 Value Proposition Statement Template
+
+“For **[target customer]** who **[core problem]**,
+our solution **[solution category]** provides **[core value]**,
+resulting in **[key outcome]**,
+unlike **[alternatives]**, we **[unique differentiator]**.”
+
+
+# 6. Business Model
+
+## 6.1 Overview of the Business Model  
+A clear explanation of how the organisation creates, delivers, and captures value.
+
+Prompts to complete:  
+- What value is being created for the customer?  
+- How is this value delivered operationally?  
+- How does the business earn revenue from this value?  
+- What structural advantages does the model create?
+
+```mermaid
+flowchart LR
+    A[Value Creation] --> B[Value Delivery]
+    B --> C[Value Capture]
+
+    A --> A1[Automation & AI Capabilities]
+    A --> A2[Integrated Research Workflows]
+
+    B --> B1[Platforms & Tools]
+    B --> B2[Professional Services]
+    B --> B3[Training & Support]
+
+    C --> C1[Subscriptions]
+    C --> C2[Project Revenue]
+    C --> C3[Support Contracts]
+```
+
+
+## 6.2 Revenue Streams  
+List and describe each way the business generates income.
+
+| Revenue Stream | Description | Pricing Logic | Recurrence |
+|----------------|-------------|----------------|------------|
+| Subscriptions | Access to tools or platforms | Per month or year | Recurring |
+| Professional Services | Implementation and setup | Fixed project fee | One-time |
+| Training & Workshops | Instructor-led or on-demand training | Per session or per seat | Occasional |
+| Custom Development | Bespoke features or integrations | Project-based | One-time |
+| Support Contracts | Priority support and SLAs | Tiered plans | Recurring |
+
+```mermaid
+flowchart TD
+    A[Revenue Streams] --> B[Subscriptions]
+    A --> C[Professional Services]
+    A --> D[Training & Workshops]
+    A --> E[Custom Development]
+    A --> F[Support Contracts]
+
+    B --> B1[Recurring Revenue]
+    C --> C1[Implementation Fees]
+    D --> D1[Per-seat or Session Fees]
+    E --> E1[Project-based Fees]
+    F --> F1[Tiered Support Plans]
+```
+
+
+## 6.3 Pricing Model  
+Describe the pricing strategy and structure.
+
+Prompts:  
+- What pricing strategy is used (value-based, competitive, tiered)?  
+- Are there customer segments with different pricing expectations?  
+- How does pricing scale with usage, seats, data volume, or complexity?
+
+Example table:
+
+| Tier | Target Customer | Included Features | Price |
+|------|------------------|--------------------|--------|
+| Basic | Small teams | Core features |  |
+| Pro | Medium organisations | Advanced automation + integrations |  |
+| Enterprise | Large institutions | Full stack + support |  |
+
+```mermaid
+flowchart LR
+    A[Pricing Model] --> B[Tiers]
+    A --> C[Value Metrics]
+    A --> D[Scaling Rules]
+
+    B --> B1[Basic]
+    B --> B2[Pro]
+    B --> B3[Enterprise]
+
+    C --> C1[Seats]
+    C --> C2[Usage Volume]
+    C --> C3[Feature Access]
+
+    D --> D1[Add-ons]
+    D --> D2[Storage or Compute Scaling]
+    D --> D3[Integration Complexity]
+```
+
+## 6.4 Cost Structure  
+Identify the major cost categories of the business.
+
+| Cost Category | Description | Cost Type |
+|---------------|-------------|-----------|
+| Infrastructure | Hosting, compute, storage | Fixed / Variable |
+| Development | Engineering, updates, roadmap | Fixed |
+| Support | Customer and technical support | Variable |
+| Sales & Marketing | Outreach, materials, ads | Variable |
+| Operations | Admin, legal, internal tooling | Fixed |
+
+```mermaid
+flowchart TD
+    A[Cost Structure] --> B[Infrastructure]
+    A --> C[Development]
+    A --> D[Support]
+    A --> E[Sales & Marketing]
+    A --> F[Operations]
+
+    B --> B1[Hosting<br/>Compute<br/>Storage]
+    C --> C1[Engineering<br/>Feature Roadmap]
+    D --> D1[Customer Support<br/>Technical Assistance]
+    E --> E1[Ads<br/>Outreach<br/>Materials]
+    F --> F1[Admin<br/>Legal<br/>Internal Tools]
+```
+
+
+## 6.5 Customer Acquisition Model  
+Explain how customers discover, evaluate, and adopt the solution.
+
+Prompts:  
+- What channels bring customers into the funnel?  
+- What is the step-by-step process from lead to conversion?  
+- What materials, demos, or touchpoints support the decision?  
+- What is the follow-up or nurturing plan?
+
+Example structure:
+
+| Funnel Stage | Activity | KPI |
+|--------------|----------|-----|
+| Awareness | LinkedIn, leads, webinars | Impressions |
+| Consideration | Demo, consultation, proposals | Conversion rate |
+| Decision | Contracting | Close rate |
+| Onboarding | Setup and training | Activation %
+
+```mermaid
+flowchart TD
+    A[Awareness] --> B[Consideration]
+    B --> C[Decision]
+    C --> D[Onboarding]
+
+    A --> A1[LinkedIn<br/>Webinars<br/>Partnerships]
+    B --> B1[Demos<br/>Consultations<br/>Proposals]
+    C --> C1[Contracting<br/>Negotiation]
+    D --> D1[Setup<br/>Training<br/>Activation]
+```
+
+
+## 6.6 Delivery and Value Capture  
+Describe how the value is operationally delivered.
+
+Prompts:  
+- What delivery model is used (remote, hybrid, onsite)?  
+- What steps occur from kickoff to final delivery?  
+- How is customer satisfaction ensured?  
+- How does the business retain customers?  
+
+```mermaid
+flowchart LR
+    A[Project Kickoff] --> B[Configuration]
+    B --> C[Validation]
+    C --> D[Handover]
+    D --> E[Ongoing Value Capture]
+
+    A --> A1[Scope<br/>Alignment]
+    B --> B1[Technical Setup<br/>Integrations]
+    C --> C1[Testing<br/>Feedback]
+    D --> D1[Training<br/>Documentation]
+    E --> E1[Support<br/>Renewals<br/>Upsell Paths]
+```
+
+
+## 6.7 Scalability Factors  
+Explain what allows the business to scale and what might limit scale.
+
+| Factor | Positive Impact on Scale | Risks / Constraints |
+|--------|---------------------------|----------------------|
+| Automation | Reduces marginal cost | High initial setup |
+| Modular Architecture | Easier to expand | Requires governance |
+| Cloud Delivery | Global reach | Compliance dependency |
+| Partner Ecosystem | Amplifies adoption | Quality control needed |
+
+```mermaid
+flowchart TD
+    A[Scalability Factors] --> B[Automation]
+    A --> C[Modular Architecture]
+    A --> D[Cloud Delivery]
+    A --> E[Partner Ecosystem]
+
+    B --> B1[Lower Marginal Cost]
+    C --> C1[Extend Without Rewrites]
+    D --> D1[Global Reach<br/>Elastic Resources]
+    E --> E1[Distributed Delivery<br/>Faster Adoption]
+```
+
+
+## 6.8 Key Partnerships  
+List the external parties required to operate effectively.
+
+Examples:
+- Cloud or infrastructure providers  
+- AI or analytics vendors  
+- Technology partners  
+- Academic collaborators  
+- Channel partners  
+
+```mermaid
+flowchart LR
+    A[Key Partnerships] --> B[Infrastructure Providers]
+    A --> C[AI & Analytics Vendors]
+    A --> D[Technology Partners]
+    A --> E[Academic Collaborators]
+    A --> F[Channel Partners]
+
+    B --> B1[Cloud Hosting<br/>Compute Resources]
+    C --> C1[Model Access<br/>Analytics Tools]
+    D --> D1[Integrations<br/>Ecosystem Extensions]
+    E --> E1[Research Projects<br/>Pilots]
+    F --> F1[Distribution<br/>Local Presence]
+```
+
+
+## 6.9 Profitability and Break-Even Considerations  
+Prompts:  
+- What is the gross margin target?  
+- At what revenue level does the business break even?  
+- What assumptions influence profitability?  
+- What is the timeline to reach break-even?
+
+```mermaid
+flowchart TD
+    A[Profitability Model] --> B[Revenue Growth]
+    A --> C[Cost Structure]
+    A --> D[Gross Margin]
+    A --> E[Break-Even Point]
+
+    B --> B1[Subscriptions<br/>Services<br/>Support]
+    C --> C1[Fixed Costs<br/>Variable Costs]
+    D --> D1[Margin Improvement<br/>via Automation]
+    E --> E1[Required Revenue<br/>to Cover Costs]
+```
+
+
+## 6.10 Strategic Advantages  
+Summarise what makes the business model defensible and competitive.
+
+Examples:
+- Integrated ecosystem and workflows  
+- High switching costs  
+- Specialised expertise  
+- Long-term institutional relationships  
+- Automation-driven operating leverage  
+
+```mermaid
+flowchart LR
+    A[Strategic Advantages] --> B[Integrated Ecosystem]
+    A --> C[High Switching Costs]
+    A --> D[Specialised Expertise]
+    A --> E[Long-Term Relationships]
+    A --> F[Automation Leverage]
+
+    B --> B1[Unified Workflow<br/>Interoperable Tools]
+    C --> C1[Deep Embedding<br/>in Customer Processes]
+    D --> D1[Domain Knowledge<br/>and Proven Methods]
+    E --> E1[Institutional Trust<br/>Repeat Engagements]
+    F --> F1[Lower Delivery Cost<br/>Higher Margins]
+```
+
+
+
+# 7. Product and Service Portfolio
+
+## 7.1 Overview  
+Describe the complete set of products and services offered.  
+Prompts to complete:  
+- What is included in the portfolio?  
+- How do the offerings relate to each other?  
+- Which solutions are core, which are optional, and which are premium?  
+- How does each offering contribute to the overall business model?
+
+```mermaid
+flowchart TD
+    A[Portfolio Overview] --> B[Core Products]
+    A --> C[Add-on Modules]
+    A --> D[Professional Services]
+    A --> E[Training & Support]
+    A --> F[Enterprise Solutions]
+
+    B --> B1[Main Platforms<br/>Primary Tools]
+    C --> C1[Optional Enhancements<br/>Integrations]
+    D --> D1[Implementation<br/>Consulting]
+    E --> E1[Workshops<br/>Documentation<br/>Helpdesk]
+    F --> F1[Large-scale Deployments<br/>Custom Compliance]
+```
+
+
+## 7.2 Product Categories  
+Organise offerings into logical groups.
+
+Example structure:
+- Core Products  
+- Add-on Modules  
+- Professional Services  
+- Training and Support  
+- Enterprise Solutions
+
+```mermaid
+flowchart LR
+    A[Product Categories] --> B[Core Products]
+    A --> C[Add-on Modules]
+    A --> D[Professional Services]
+    A --> E[Training & Support]
+    A --> F[Enterprise Solutions]
+
+    B --> B1[Primary Tools<br/>Essential Workflows]
+    C --> C1[Optional Features<br/>Extended Capabilities]
+    D --> D1[Implementation<br/>Custom Projects]
+    E --> E1[Sessions<br/>Guides<br/>Helpdesk]
+    F --> F1[Custom Architecture<br/>Large Deployments]
+```
+
+
+## 7.3 Core Products  
+List the primary products that define the value proposition.
+
+For each product include:  
+- What it does  
+- Who it is for  
+- What problems it solves  
+- What outcomes it delivers
+
+Example table:
+
+| Product | Description | Target User | Key Outcome |
+|---------|-------------|-------------|--------------|
+| Product A |  |  |  |
+| Product B |  |  |  |
+| Product C |  |  |  |
+
+```mermaid
+flowchart TD
+    A[Core Products] --> B[Product A]
+    A --> C[Product B]
+    A --> D[Product C]
+
+    B --> B1[Description<br/>Target User<br/>Outcome]
+    C --> C1[Description<br/>Target User<br/>Outcome]
+    D --> D1[Description<br/>Target User<br/>Outcome]
+```
+
+
+## 7.4 Add-on Modules  
+List optional extensions that enrich the core offering.
+
+Prompts:  
+- What additional capabilities can customers purchase?  
+- How do these modules integrate with the core product?  
+- What customer needs do they address?
+
+Example:
+
+| Module | Purpose | Requirements | Value |
+|--------|----------|--------------|--------|
+| Module X |  |  |  |
+| Module Y |  |  |  |
+
+```mermaid
+flowchart TD
+    A[Add-on Modules] --> B[Module X]
+    A --> C[Module Y]
+    A --> D[Module Z]
+
+    B --> B1[Purpose<br/>Requirements<br/>Value]
+    C --> C1[Purpose<br/>Requirements<br/>Value]
+    D --> D1[Purpose<br/>Requirements<br/>Value]
+```
+
+
+## 7.5 Professional Services  
+Describe services that support implementation, optimisation, or onboarding.
+
+Examples:
+- Implementation packages  
+- Onboarding programs  
+- Workflow automation consulting  
+- Custom integration projects  
+- Data preparation and modelling support  
+
+Include:
+
+| Service | Description | Deliverables | Duration |
+|---------|-------------|--------------|----------|
+| Service A |  |  |  |
+| Service B |  |  |  |
+
+```mermaid
+flowchart LR
+    A[Professional Services] --> B[Service A]
+    A --> C[Service B]
+    A --> D[Service C]
+
+    B --> B1[Description<br/>Deliverables<br/>Duration]
+    C --> C1[Description<br/>Deliverables<br/>Duration]
+    D --> D1[Description<br/>Deliverables<br/>Duration]
+```
+
+
+## 7.6 Training and Support  
+Outline the training and support offerings.
+
+Prompts:  
+- What training formats are available (live, on-demand, documentation?)  
+- What support tiers are offered?  
+- What SLAs are provided?  
+
+Example:
+
+| Tier | Support Level | Response Time | Inclusions |
+|------|----------------|----------------|-------------|
+| Standard | Email | 48 hours | Basic support |
+| Pro | Priority | 12–24 hours | Advanced help |
+| Enterprise | Dedicated | < 4 hours | Full support |
+
+```mermaid
+flowchart TD
+    A[Training & Support] --> B[Standard Tier]
+    A --> C[Pro Tier]
+    A --> D[Enterprise Tier]
+
+    B --> B1[Email Support<br/>48h Response]
+    C --> C1[Priority Support<br/>12–24h Response]
+    D --> D1[Dedicated Support<br/>&lt; 4h Response]
+```
+
+
+## 7.7 Enterprise Solutions  
+Describe any large-scale deployments or offerings tailored for institutions.
+
+Prompts:  
+- What customisation options exist?  
+- What architectural or compliance requirements are supported?  
+- What value does this deliver compared to standard packages?
+
+```mermaid
+flowchart LR
+    A[Enterprise Solutions] --> B[Custom Architecture]
+    A --> C[Compliance Requirements]
+    A --> D[Large-Scale Deployment]
+
+    B --> B1[Advanced Integrations<br/>Custom Modules]
+    C --> C1[Data Policies<br/>Security Controls]
+    D --> D1[High Availability<br/>Scalability Options]
+```
+
+
+## 7.8 Product Lifecycle  
+Outline how each product evolves over time.
+
+Examples of lifecycle phases:
+- Concept  
+- Pilot  
+- Release  
+- Growth  
+- Maturity  
+- End-of-life  
+
+Table:
+
+| Product | Current Phase | Next Step | Timeline |
+|---------|----------------|------------|-----------|
+| Product A |  |  |  |
+| Product B |  |  |  |
+
+```mermaid
+flowchart LR
+    A[Product Lifecycle] --> B[Concept]
+    B --> C[Pilot]
+    C --> D[Release]
+    D --> E[Growth]
+    E --> F[Maturity]
+    F --> G[End-of-Life]
+
+    B --> B1[Idea Validation]
+    C --> C1[User Feedback]
+    D --> D1[Market Launch]
+    E --> E1[Feature Expansion]
+    F --> F1[Performance Optimization]
+    G --> G1[Sunset & Migration]
+```
+
+
+## 7.9 Portfolio Strategy  
+Define how the portfolio fits into the company’s long-term strategy.
+
+Prompts:  
+- Which products will drive growth?  
+- Which are loss leaders but necessary?  
+- How do offerings complement each other?  
+- What dependencies or synergies exist?
+
+```mermaid
+flowchart TD
+    A[Portfolio Strategy] --> B[Growth Drivers]
+    A --> C[Supporting Offerings]
+    A --> D[Synergies & Dependencies]
+
+    B --> B1[Core Products<br/>Primary Revenue]
+    C --> C1[Add-ons<br/>Services<br/>Training]
+    D --> D1[Shared Infrastructure<br/>Common Workflows]
+```
+
+
+## 7.10 Differentiation Across the Portfolio  
+Explain what makes the portfolio unique in the market.
+
+Examples:
+- Integration between tools  
+- Unified workflow design  
+- Consistent UX  
+- Reproducibility and automation principles  
+- High interoperability  
+- Configurable but standardised solutions  
+
+```mermaid
+flowchart LR
+    A[Portfolio Differentiation] --> B[Integration]
+    A --> C[Unified UX]
+    A --> D[Automation Principles]
+    A --> E[Interoperability]
+    A --> F[Reproducibility]
+
+    B --> B1[Connected Tools<br/>Consistent Data Flow]
+    C --> C1[Common Design<br/>Shared Patterns]
+    D --> D1[Reduced Manual Steps<br/>Intelligent Pipelines]
+    E --> E1[Works with Existing Systems<br/>Low Friction]
+    F --> F1[Repeatable Outputs<br/>Auditability]
+```
+
+# 8. Customer Segments
+
+## 8.1 Overview  
+Define the specific groups of customers the business targets.  
+Prompts to complete:  
+- Who are the primary users and buyers?  
+- What differentiates each segment?  
+- What value does each segment derive?  
+- How large or strategic is each segment?
+
+```mermaid
+flowchart TD
+    A[Customer Segments] --> B[Primary Segments]
+    A --> C[Secondary Segments]
+
+    B --> B1[Segment A]
+    B --> B2[Segment B]
+    B --> B3[Segment C]
+
+    C --> C1[Segment X]
+    C --> C2[Segment Y]
+```
+
+
+## 8.2 Segment Definitions  
+
+### 8.2.1 Primary Segments  
+List your main customer types.
+
+| Segment | Description | Role in Buying Process | Strategic Importance |
+|---------|-------------|-------------------------|-----------------------|
+| Segment A |  |  |  |
+| Segment B |  |  |  |
+| Segment C |  |  |  |
+
+### 8.2.2 Secondary Segments  
+Additional audiences that may adopt or influence adoption.
+
+| Segment | Description | Influence Level |
+|---------|-------------|------------------|
+| Segment X |  |  |
+| Segment Y |  |  |
+
+```mermaid
+flowchart LR
+    A[Segment Definitions] --> B[Primary]
+    A --> C[Secondary]
+
+    B --> B1[Segment A<br/>Role | Influence | Importance]
+    B --> B2[Segment B<br/>Role | Influence | Importance]
+    B --> B3[Segment C<br/>Role | Influence | Importance]
+
+    C --> C1[Segment X<br/>Influence Level]
+    C --> C2[Segment Y<br/>Influence Level]
+```
+
+
+## 8.3 Customer Needs and Motivations  
+Describe what each segment wants to achieve.
+
+| Segment | Key Needs | Motivations | Barriers |
+|---------|-----------|-------------|-----------|
+| Segment A |  |  |  |
+| Segment B |  |  |  |
+
+Prompts:  
+- What outcomes matter most?  
+- What pressures or constraints do they have?  
+- What would make them switch from a current solution?
+
+```mermaid
+flowchart TD
+    A[Needs & Motivations] --> B[Segment A]
+    A --> C[Segment B]
+
+    B --> B1[Key Needs]
+    B --> B2[Motivations]
+    B --> B3[Barriers]
+
+    C --> C1[Key Needs]
+    C --> C2[Motivations]
+    C --> C3[Barriers]
+```
+
+
+## 8.4 Buying Criteria  
+Explain what factors drive purchasing decisions.
+
+Examples:
+- Price sensitivity  
+- Ease of implementation  
+- Integration compatibility  
+- Automation level  
+- Support and training availability  
+- Compliance requirements  
+- Proven reliability  
+
+Table format:
+
+| Criterion | Importance | Notes |
+|-----------|------------|--------|
+| Price |  |  |
+| Ease of Use |  |  |
+| Automation |  |  |
+| Integration |  |  |
+
+```mermaid
+flowchart LR
+    A[Buying Criteria] --> B[Price]
+    A --> C[Ease of Use]
+    A --> D[Automation]
+    A --> E[Integration]
+    A --> F[Compliance]
+    A --> G[Reliability]
+```
+
+
+## 8.5 Segment Prioritisation  
+Describe which segments you should target first and why.
+
+Considerations:
+- Market size  
+- Revenue potential  
+- Speed of adoption  
+- Strategic fit  
+- Competitive landscape  
+
+Example table:
+
+| Segment | Priority Level | Reason |
+|---------|-----------------|---------|
+| Segment A | High |  |
+| Segment B | Medium |  |
+| Segment C | Low |  |
+
+```mermaid
+flowchart TD
+    A[Segment Prioritisation] --> B[High Priority]
+    A --> C[Medium Priority]
+    A --> D[Low Priority]
+
+    B --> B1[Segment A]
+    C --> C1[Segment B]
+    D --> D1[Segment C]
+```
+
+
+## 8.6 Customer Persona Placeholders  
+Create templates for detailed personas (filled in separately).
+
+### Persona Template:
+- Background  
+- Role and responsibilities  
+- Goals  
+- Challenges  
+- Buying process  
+- Success indicators  
+- Preferred communication channels  
+
+(Placeholder for persona cards)
+
+## 8.7 Customer Journey Overview  
+Describe how each segment interacts with the business across stages.
+
+Stages to consider:
+- Awareness  
+- Consideration  
+- Decision  
+- Onboarding  
+- Usage  
+- Renewal  
+
+Example table:
+
+| Journey Stage | Customer Actions | Business Actions | KPIs |
+|----------------|-------------------|-------------------|------|
+| Awareness |  |  |  |
+| Decision |  |  |  |
+| Renewal |  |  |  |
+
+```mermaid
+flowchart LR
+    A[Awareness] --> B[Consideration]
+    B --> C[Decision]
+    C --> D[Onboarding]
+    D --> E[Usage]
+    E --> F[Renewal]
+
+    A --> A1[Content | Outreach]
+    B --> B1[Demos | Evaluation]
+    C --> C1[Contracting]
+    D --> D1[Setup | Training]
+    E --> E1[Daily Value | Support]
+    F --> F1[Review | Expansion]
+```
+
+
+## 8.8 Segment Pain Points  
+Document recurring problems within each segment.
+
+| Segment | Pain Point | Impact Severity | Opportunity |
+|---------|-------------|-------------------|-------------|
+| Segment A |  |  |  |
+| Segment B |  |  |  |
+
+```mermaid
+flowchart TD
+    A[Pain Points] --> B[Segment A]
+    A --> C[Segment B]
+
+    B --> B1[High Impact Issues]
+    C --> C1[High Impact Issues]
+```
+
+## 8.9 Value Alignment  
+Describe how the offering aligns with each segment’s needs.
+
+Prompts:  
+- Which product features directly support which segments?  
+- Where is value strongest?  
+- Which gaps need addressing?  
+
+Example table:
+
+| Segment | Relevant Features | Strength of Fit | Notes |
+|---------|--------------------|------------------|--------|
+| Segment A |  |  |  |
+| Segment B |  |  |  |
+
+```mermaid
+flowchart LR
+    A[Value Alignment] --> B[Segment A]
+    A --> C[Segment B]
+
+    B --> B1[Relevant Features<br/>Strength of Fit]
+    C --> C1[Relevant Features<br/>Strength of Fit]
+```
+
+
+# 9. Competitive Landscape
+
+## 9.1 Overview  
+Describe the competitive environment the business operates in.  
+Prompts to complete:  
+- Who are the direct competitors?  
+- Who are the indirect competitors or substitutes?  
+- What alternatives do customers currently rely on?  
+- What competitive forces shape the market?
+
+(Placeholder for competitive landscape map)
+
+## 9.2 Direct Competitors  
+Companies offering similar solutions targeting the same customer segments.
+
+| Competitor | Description | Strengths | Weaknesses |
+|------------|-------------|-----------|-------------|
+| Competitor A |  |  |  |
+| Competitor B |  |  |  |
+| Competitor C |  |  |  |
+
+(Placeholder for direct competitor radar chart)
+
+## 9.3 Indirect Competitors  
+Tools or services that solve related problems but in different ways.
+
+| Competitor | Substitute for | Key Advantage | Key Limitation |
+|------------|----------------|----------------|-----------------|
+| Alternative A |  |  |  |
+| Alternative B |  |  |  |
+
+(Placeholder for substitution matrix)
+
+## 9.4 Internal or In-House Alternatives  
+Describe what potential customers may already be using internally.
+
+Examples:
+- Custom scripts  
+- Spreadsheets  
+- Manual workflows  
+- Legacy systems  
+- Fragmented toolchains  
+
+| Internal Solution | Pain Points | Why Customers Switch |
+|--------------------|--------------|------------------------|
+| Approach A |  |  |
+| Approach B |  |  |
+
+(Placeholder for build-vs-buy comparison)
+
+## 9.5 Competitive Factors (Porter’s Lens)  
+Identify factors that influence competition.
+
+Key factors may include:
+- Ease of switching  
+- Cost sensitivity  
+- Market fragmentation  
+- Threat of substitutes  
+- Supplier dependency  
+- New entrant feasibility  
+
+(Placeholder for five forces diagram)
+
+## 9.6 Feature Comparison  
+Compare your solution against competitors across critical dimensions.
+
+| Feature | Your Solution | Competitor A | Competitor B |
+|---------|----------------|--------------|--------------|
+| Automation |  |  |  |
+| AI Capabilities |  |  |  |
+| Integration Support |  |  |  |
+| Security/Compliance |  |  |  |
+| Ease of Use |  |  |  |
+| Cost |  |  |  |
+
+(Placeholder for scoring framework)
+
+## 9.7 Market Positioning  
+Describe how the business positions itself relative to competitors.
+
+Prompts:  
+- What axis defines differentiation (price vs performance, automation vs manual, etc)?  
+- Where do competitors cluster?  
+- What unique space does your solution occupy?  
+
+(Placeholder for perceptual positioning map)
+
+## 9.8 Competitive Advantages  
+List your defensible strengths.
+
+Examples:
+- Integrated architecture across multiple workflows  
+- Automation-first approach  
+- Lower implementation friction  
+- Strong domain expertise  
+- Interoperability with existing systems  
+- Insight and reporting capabilities  
+- Reproducibility and auditability  
+
+(Placeholder for competitive moat diagram)
+
+## 9.9 Market Gaps and Opportunities  
+Identify areas where competitors are weak or absent.
+
+| Opportunity Area | Gap in Market | Your Advantage | Priority |
+|-------------------|----------------|----------------|----------|
+| Example A |  |  |  |
+| Example B |  |  |  |
+
+(Placeholder for opportunity landscape)
+
+## 9.10 Risks From Competitors  
+Document potential threats.
+
+| Competitor Action | Risk Level | Impact | Mitigation |
+|--------------------|------------|---------|-------------|
+| Price pressure |  |  |  |
+| Feature replication |  |  |  |
+| Aggressive bundling |  |  |  |
+
+(Placeholder for risk matrix)
+
+## 9.11 Strategic Response  
+Describe how the business will maintain a competitive edge.
+
+Prompts:  
+- What investments reinforce your strongest advantages?  
+- What partnerships create defensibility?  
+- What innovations must remain ahead of competitors?  
+
+(Placeholder for strategic action plan)
+
+# 10. Go To Market Strategy
+
+## 10.1 Overview  
+Define how the business brings its products and services to customers.  
+Prompts to complete:  
+- What is the overall GTM approach?  
+- Which segments are targeted first and why?  
+- What channels will drive awareness, acquisition, and conversion?
+
+(Placeholder for GTM framework)
+
+## 10.2 Target Segments for GTM  
+Identify the priority audiences for launch and early scaling.
+
+| Segment | Why Target First | Expected Conversion | Strategic Importance |
+|---------|-------------------|---------------------|----------------------|
+| Segment A |  |  |  |
+| Segment B |  |  |  |
+| Segment C |  |  |  |
+
+(Placeholder for segment prioritisation visual)
+
+## 10.3 Value Messaging  
+Define the core messages communicated to each segment.
+
+| Segment | Key Message | Pain Addressed | Desired Reaction |
+|---------|--------------|----------------|------------------|
+| Segment A |  |  |  |
+| Segment B |  |  |  |
+
+Prompts:  
+- What transformation is being promised?  
+- What emotional or functional value is emphasised?  
+- What evidence or proof points support the message?
+
+(Placeholder for messaging architecture)
+
+## 10.4 Acquisition Channels  
+List the channels used to attract potential customers.
+
+Examples:
+- LinkedIn organic presence  
+- Direct outreach to institutions  
+- Webinars and workshops  
+- Industry conferences  
+- Partnerships with academic or research networks  
+- Referral programs  
+- SEO and content marketing  
+
+Table format:
+
+| Channel | Purpose | Strength | Challenge |
+|---------|----------|-----------|-----------|
+| LinkedIn | Awareness | Targeted reach | Competes for attention |
+| Partnerships | Trust building | High credibility | Long negotiation cycles |
+
+(Placeholder for multi-channel funnel diagram)
+
+## 10.5 Lead Generation Strategy  
+Describe activities used to produce qualified leads.
+
+Prompts:  
+- What content attracts your target users?  
+- What incentives encourage sign-ups or demos?  
+- What KPIs measure lead quality?
+
+Example structure:
+- Educational posts and insights  
+- Live demos  
+- Whitepapers and case studies  
+- Free diagnostic tools  
+- AI-powered examples or previews  
+
+(Placeholder for lead magnet map)
+
+## 10.6 Sales Process  
+Define each stage of the sales cycle.
+
+| Stage | Description | Owner | KPI |
+|--------|-------------|--------|------|
+| Discovery | Initial call or meeting | Sales / Founder | Qualification rate |
+| Demo | Product walkthrough | Product / Founder | Demo-to-proposal ratio |
+| Proposal | Scope and pricing | Sales / Consulting | Acceptance rate |
+| Closing | Contracting and negotiation | Leadership | Close rate |
+| Onboarding | Implementation kickoff | Delivery | Activation %
+
+(Placeholder for sales pipeline diagram)
+
+## 10.7 Partnership Strategy  
+Explain how partnerships will support customer acquisition and expansion.
+
+Examples:
+- Academic alliances  
+- Technology partnerships  
+- Joint research projects  
+- Co-branded workshops  
+- Integration partners  
+
+Prompts:  
+- What partners increase reach or credibility?  
+- What incentives exist for partners?  
+- What is the partnership onboarding process?
+
+(Placeholder for partner ecosystem map)
+
+## 10.8 Pricing and Packaging Strategy for GTM  
+Describe how pricing aligns with GTM positioning.
+
+Prompts:  
+- Is entry pricing designed to lower friction?  
+- Are packages aligned with segment maturity?  
+- Are there upsell paths?  
+
+Example:
+
+| Package | Target Segment | Purpose | Upsell Path |
+|----------|----------------|----------|--------------|
+| Starter | Small teams | Lower barrier to entry | Pro plan |
+| Pro | Mid-size orgs | Core value delivery | Enterprise |
+| Enterprise | Institutions | Maximum flexibility | Add-ons |
+
+(Placeholder for packaging map)
+
+## 10.9 Customer Onboarding Strategy  
+Outline how new customers are activated and guided toward value.
+
+Prompts:  
+- What does onboarding include?  
+- How long does it take to reach first value?  
+- What training or materials are required?  
+
+Example:
+
+| Step | Activity | Owner | Objective |
+|------|-----------|--------|-----------|
+| Kickoff | Alignment meeting | Delivery | Expectations set |
+| Setup | Configuration | Engineering | System operational |
+| Training | Live or guided training | Education | User competence |
+| First Output | Running first workflow/report | Customer | Value realised |
+
+(Placeholder for onboarding flow)
+
+## 10.10 Expansion and Retention Strategy  
+Describe how existing customers grow and remain engaged.
+
+Prompts:  
+- What signals indicate upsell opportunities?  
+- What feedback loops improve retention?  
+- How are success stories shared?  
+
+Example retention levers:
+- Continuous updates  
+- Dedicated support  
+- Training refreshers  
+- Community or knowledge hubs  
+- Quarterly business reviews  
+
+(Placeholder for customer lifecycle diagram)
+
+## 10.11 KPIs for GTM Success  
+Define measurable indicators that validate GTM effectiveness.
+
+| KPI Category | KPI | Target |
+|--------------|------|--------|
+| Acquisition | Lead volume |  |
+| Conversion | Demo-to-close rate |  |
+| Revenue | Average contract value |  |
+| Retention | Renewal rate |  |
+| Awareness | Engagement metrics |  |
+
+(Placeholder for KPI dashboard)
+
+## 10.12 Risks and Mitigation in GTM  
+Identify threats that may slow GTM performance.
+
+| Risk | Impact | Likelihood | Mitigation |
+|------|--------|-------------|------------|
+| Low lead quality |  |  |  |
+| Message-market mismatch |  |  |  |
+| Channel saturation |  |  |  |
+
+(Placeholder for GTM risk matrix)
+
+## 10.13 GTM Timeline  
+Provide a phased plan for rollout.
+
+| Phase | Timeframe | Activities | Expected Outcomes |
+|--------|------------|-------------|--------------------|
+| Phase 1 | 0–3 months |  |  |
+| Phase 2 | 3–6 months |  |  |
+| Phase 3 | 6–12 months |  |  |
+
+(Placeholder for timeline graphic)
+
+# 11. Operations Plan
+
+## 11.1 Overview  
+Describe how the organisation delivers its products and services on a daily basis.
+
+Prompts to complete:  
+- What are the core operational activities?  
+- How does the business ensure reliability, quality, and consistency?  
+- What systems and processes are required to support operations?
+
+(Placeholder for operational architecture)
+
+## 11.2 Operating Model  
+Define how the organisation functions internally.
+
+Components to consider:
+- Delivery model (remote, hybrid, onsite)  
+- Team structure and responsibilities  
+- Interaction between product, engineering, sales, and support  
+- Escalation paths and decision-making structure  
+
+Example table:
+
+| Function | Responsibility | Key Outputs |
+|----------|----------------|--------------|
+| Delivery | Implementations | Configured systems |
+| Support | Customer inquiries | Issue resolution |
+| Engineering | Product updates | Feature releases |
+| Operations | Admin + compliance | Smooth day-to-day running |
+
+(Placeholder for operating model diagram)
+
+## 11.3 Core Processes  
+List and describe the main repeatable processes that ensure operational excellence.
+
+Examples:
+- Customer onboarding  
+- Project delivery workflow  
+- Incident and issue management  
+- Release management  
+- Quality assurance  
+- Documentation and knowledge management  
+
+(Placeholder for process flow maps)
+
+## 11.4 Delivery Workflow  
+Outline the detailed workflow used to deliver services to customers.
+
+Prompts:  
+- What steps occur from contract signing to completed delivery?  
+- What are the internal and external handoffs?  
+- Which tools support each stage?  
+
+Example:
+
+| Step | Description | Owner | Deliverable |
+|------|--------------|--------|--------------|
+| Kickoff | Scope + alignment | Delivery | Project plan |
+| Configuration | Technical setup | Engineering | Live environment |
+| Validation | Testing + feedback | Customer | Acceptance |
+| Handover | Documentation + training | Delivery | Final sign-off |
+
+(Placeholder for service delivery lifecycle)
+
+## 11.5 Quality Management  
+Explain how quality is maintained throughout operations.
+
+Prompts:  
+- What standards or guidelines ensure consistent quality?  
+- What review mechanisms exist?  
+- How are customer complaints or defects handled and tracked?
+
+Consider topics:
+- QA checklists  
+- Internal reviews  
+- Automated testing workflows  
+- Error logging and monitoring  
+- Customer satisfaction surveys  
+
+(Placeholder for QA framework)
+
+## 11.6 Resource Requirements  
+Identify the human and technical resources needed to operate effectively.
+
+### Human Resources  
+- Delivery specialists  
+- Technical support  
+- Engineers  
+- Project managers  
+- Trainers  
+- Operations staff  
+
+### Technical Resources  
+- Hosting infrastructure  
+- CI/CD pipelines  
+- Monitoring tools  
+- Ticketing systems  
+- Documentation systems  
+
+(Placeholder for resource allocation model)
+
+## 11.7 Tools and Systems  
+List the tools used across the organisation.
+
+Examples:
+- Project management system  
+- CRM or pipeline tracker  
+- Knowledge base  
+- Support ticketing  
+- Monitoring and alerting  
+- Automation and CI/CD tools  
+
+(Placeholder for system landscape map)
+
+## 11.8 Supplier and Partner Dependencies  
+Document any external tools or partners essential for operations.
+
+Examples:
+- Cloud hosting provider  
+- AI model infrastructure  
+- Payment processors  
+- Integration vendors  
+- Security or compliance partners  
+
+(Placeholder for supplier dependency chart)
+
+## 11.9 Risk and Continuity Planning  
+Outline how the organisation ensures continuity in operations.
+
+Include:
+- Disaster recovery planning  
+- Data backup policies  
+- Incident response procedures  
+- Redundancy for critical services  
+- Business continuity strategy  
+
+(Placeholder for continuity plan diagram)
+
+## 11.10 Operational KPIs  
+Define the KPIs that measure operational performance.
+
+| KPI Category | KPI | Definition | Target |
+|--------------|------|-------------|--------|
+| Delivery | On-time completion | % of projects delivered on schedule |  |
+| Quality | Defect rate | Issues reported per project |  |
+| Support | Response time | Average first reply |  |
+| Efficiency | Cycle time | Time per workflow |  |
+| Satisfaction | Customer score | NPS or equivalent |  |
+
+(Placeholder for KPI dashboard)
+
+## 11.11 Scaling Operations  
+Describe how operations evolve as the organisation grows.
+
+Prompts:  
+- What processes must scale first?  
+- What can be automated?  
+- What organisational changes support larger scale?  
+
+Example scaling levers:
+- Improved automation  
+- Standardised delivery packages  
+- Dedicated support function  
+- Additional engineering capacity  
+- Partner-driven implementations  
+
+(Placeholder for scaling roadmap)
+
+
+# 12. Financial Plan
+
+## 12.1 Overview  
+Define the financial structure, projections, and assumptions that support the business strategy.
+
+Prompts to complete:  
+- What is the revenue model and expected growth path?  
+- What are the major cost drivers?  
+- What assumptions underpin the financial forecasts?  
+- What milestones define financial success?
+
+(Placeholder for financial summary table)
+
+## 12.2 Revenue Projections  
+Provide multi-year revenue forecasts based on product lines or customer segments.
+
+Example table:
+
+| Year | Revenue Stream A | Revenue Stream B | Revenue Stream C | Total Revenue |
+|------|-------------------|-------------------|-------------------|----------------|
+| Year 1 |  |  |  |  |
+| Year 2 |  |  |  |  |
+| Year 3 |  |  |  |  |
+
+Prompts:  
+- What penetration rate is assumed for each segment?  
+- What is the expected customer lifetime value?  
+- What is the churn assumption?
+
+(Placeholder for revenue projection chart)
+
+## 12.3 Cost Projections  
+Outline expected operating costs over time.
+
+Categories to include:  
+- Infrastructure and hosting  
+- Product development  
+- Support and delivery  
+- Sales and marketing  
+- Administrative overhead  
+- Legal and compliance  
+
+Example table:
+
+| Year | Infrastructure | Development | Support | Sales/Marketing | Operations | Total Costs |
+|------|---------------|------------|---------|------------------|------------|-------------|
+| Year 1 |  |  |  |  |  |  |
+| Year 2 |  |  |  |  |  |  |
+| Year 3 |  |  |  |  |  |  |
+
+(Placeholder for cost projection chart)
+
+## 12.4 Gross Margin and Net Margin  
+Define the margin model and targets.
+
+Prompts:  
+- What is the gross margin expectation for each product?  
+- How do margins evolve as automation increases?  
+- What is the breakeven point?
+
+Example table:
+
+| Metric | Year 1 | Year 2 | Year 3 |
+|--------|--------|--------|--------|
+| Gross Margin |  |  |  |
+| Net Margin |  |  |  |
+
+(Placeholder for margin waterfall chart)
+
+## 12.5 Break-Even Analysis  
+Explain when the business becomes financially sustainable.
+
+Prompts:  
+- What is the fixed cost baseline?  
+- What level of revenue covers fixed and variable costs?  
+- How many customers or units are needed to break even?
+
+Example table:
+
+| Component | Value |
+|-----------|--------|
+| Fixed Costs |  |
+| Contribution Margin per Unit |  |
+| Break-Even Units |  |
+
+(Placeholder for break-even graph)
+
+## 12.6 Cash Flow Forecast  
+Project cash inflows and outflows to ensure liquidity and sustainability.
+
+Prompts:  
+- What early investments are required?  
+- When does cash flow turn positive?  
+- How much buffer or runway is needed?
+
+Example table:
+
+| Month/Quarter | Cash In | Cash Out | Net Cash Flow | Cumulative Position |
+|---------------|----------|-----------|----------------|----------------------|
+| Q1 |  |  |  |  |
+| Q2 |  |  |  |  |
+
+(Placeholder for cash flow timeline)
+
+## 12.7 Capital Requirements  
+Describe funding needs, if any.
+
+Prompts:  
+- What capital is required to reach breakeven?  
+- What is the timing of capital needs?  
+- What will the capital be used for?  
+- Are there plans for external investment, grants, or partnerships?
+
+(Placeholder for funding structure diagram)
+
+## 12.8 Financial Risks  
+Identify financial uncertainties and potential impacts.
+
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|---------|-------------|
+| Lower-than-expected adoption |  |  |  |
+| Higher operational costs |  |  |  |
+| Market downturn |  |  |  |
+
+(Placeholder for financial risk matrix)
+
+## 12.9 Key Financial Assumptions  
+List assumptions used in building the model.
+
+Examples:  
+- Pricing per tier  
+- Average deal size  
+- Implementation cycle time  
+- Customer churn  
+- Support cost per customer  
+- Hosting and compute cost trends  
+
+(Placeholder for assumption summary table)
+
+## 12.10 KPIs for Financial Performance  
+Define the metrics that measure financial health.
+
+| KPI | Definition | Target |
+|------|------------|---------|
+| MRR / ARR | Recurring revenue |  |
+| CAC | Cost of acquiring one customer |  |
+| LTV | Lifetime value of a customer |  |
+| Burn Rate | Monthly net cash usage |  |
+| Runway | Months of cash left |  |
+| Gross Margin | Revenue minus direct costs |  |
+
+(Placeholder for KPI dashboard)
+
+
+# 13. Growth Roadmap
+
+## 13.1 Overview  
+Provide a structured multi-phase plan for expanding the business across products, markets, and operations.
+
+Prompts to complete:  
+- What does growth look like over time?  
+- What milestones define success at each stage?  
+- How do product, team, and market evolve?
+
+(Placeholder for roadmap overview diagram)
+
+## 13.2 Strategic Growth Objectives  
+List the primary goals that define the long-term direction of the business.
+
+Examples:  
+- Expand product capabilities  
+- Enter new markets or customer segments  
+- Increase automation and reduce delivery effort  
+- Build partner ecosystems  
+- Strengthen brand authority in the domain  
+
+Table format:
+
+| Objective | Description | Time Horizon |
+|-----------|-------------|---------------|
+| Objective A |  |  |
+| Objective B |  |  |
+
+(Placeholder for objectives mapping)
+
+## 13.3 Phase 1: Foundation (0–12 Months)  
+Describe early-stage priorities and outcomes.
+
+Prompts:  
+- What must be built or validated first?  
+- Which customer segments should be targeted?  
+- What internal capabilities must be established?
+
+Example initiatives:
+- Build core product functionality  
+- Deliver pilot projects  
+- Gather user feedback  
+- Create onboarding and documentation  
+- Establish minimal GTM engine  
+- Form key partnerships  
+
+| Initiative | Owner | Outcome | Priority |
+|-----------|--------|----------|----------|
+| Initiative A |  |  |  |
+| Initiative B |  |  |  |
+
+(Placeholder for Phase 1 timeline)
+
+## 13.4 Phase 2: Acceleration (12–24 Months)  
+Focus on scaling early traction into repeatable growth.
+
+Prompts:  
+- How will customer acquisition be scaled?  
+- What product enhancements support more users?  
+- What operational changes prepare the organisation for higher volume?
+
+Possible initiatives:
+- Expand integrations and modules  
+- Increase automation of workflows  
+- Launch structured training programs  
+- Develop partner-led delivery capabilities  
+- Strengthen brand presence  
+
+| Initiative | Owner | Outcome | Priority |
+|-----------|--------|----------|----------|
+| Initiative A |  |  |  |
+| Initiative B |  |  |  |
+
+(Placeholder for Phase 2 roadmap)
+
+## 13.5 Phase 3: Scale and Maturity (24–36 Months and Beyond)  
+Describe long-term scaling strategies.
+
+Prompts:  
+- What does the organisation look like at maturity?  
+- Which markets or regions will be targeted?  
+- What enterprise requirements must be met?  
+- What advanced capabilities strengthen long-term advantage?
+
+Possible initiatives:
+- Enterprise-grade compliance and security  
+- Geographic expansion  
+- Full ecosystem of partners and integrators  
+- AI-driven predictive and prescriptive capabilities  
+- Mature self-service onboarding  
+
+| Initiative | Owner | Outcome | Priority |
+|-----------|--------|----------|----------|
+| Initiative A |  |  |  |
+| Initiative B |  |  |  |
+
+(Placeholder for Phase 3 timeline)
+
+## 13.6 Product Roadmap Alignment  
+Ensure that product evolution aligns with growth phases.
+
+Prompts:  
+- What features are required in each phase?  
+- Which enhancements unlock new segments?  
+- What technical debt must be cleared?
+
+Example:
+
+| Phase | Key Product Releases |
+|-------|------------------------|
+| Foundation |  |
+| Acceleration |  |
+| Scale |  |
+
+(Placeholder for product roadmap graphic)
+
+## 13.7 Organisational Growth Requirements  
+Describe how the team and structure evolve.
+
+Areas to consider:
+- Hiring plans  
+- New roles (support, engineering, operations, training)  
+- Leadership and governance  
+- Partnerships and outsourcing  
+
+(Placeholder for organisation evolution chart)
+
+## 13.8 Market Expansion  
+Identify which new markets, verticals, or customer segments should be pursued.
+
+Prompts:  
+- Which early markets validate the model?  
+- Which segments offer the fastest revenue?  
+- Which long-term markets offer strategic positioning?
+
+Example:
+
+| Market / Segment | Entry Timing | Rationale |
+|-------------------|---------------|-----------|
+| Segment A | Early |  |
+| Segment B | Later |  |
+
+(Placeholder for market expansion timeline)
+
+## 13.9 Partnership and Ecosystem Development  
+Explain how partnerships will amplify growth over time.
+
+Prompts:  
+- Which partnerships increase distribution?  
+- Which partnerships add credibility?  
+- Which technology alliances expand capabilities?
+
+Examples:
+- Academic institutions  
+- Technology vendors  
+- Industry associations  
+- Integration partners  
+
+(Placeholder for partner ecosystem map)
+
+## 13.10 Scaling Infrastructure  
+Describe technical and operational scaling requirements.
+
+Prompts:  
+- When does infrastructure need to scale horizontally or vertically?  
+- What monitoring, automation, or testing must be added?  
+- What compliance frameworks become necessary?
+
+(Placeholder for infrastructure scaling plan)
+
+## 13.11 Key Growth Metrics  
+Define the KPIs that measure progress across phases.
+
+| Metric | Definition | Phase Priority |
+|--------|------------|----------------|
+| ARR Growth | Annual recurring revenue | All |
+| CAC vs LTV | Acquisition cost vs lifetime value | Acceleration |
+| Churn Rate | Customer retention | Scale |
+| Product Adoption | Active usage of key features | Foundation |
+| Net Margin | Profitability | Scale |
+
+(Placeholder for growth dashboard)
+
+## 13.12 Risks to Growth and Mitigation  
+Document risks that could slow or block growth.
+
+| Risk | Impact | Likelihood | Mitigation |
+|------|---------|-------------|------------|
+| Operational bottlenecks |  |  |  |
+| Market saturation |  |  |  |
+| Increased competition |  |  |  |
+| Talent shortages |  |  |  |
+
+(Placeholder for risk map)
+
+## 13.13 Long-Term Vision  
+Summarise where the organisation aims to be in 3–5+ years.
+
+Prompts:  
+- What does success look like in full maturity?  
+- What is the position in the market?  
+- How has the product ecosystem evolved?  
+- What impact has the organisation achieved?
+
+(Placeholder for vision statement panel)
+
+# 14. Risk Analysis and Mitigation
+
+## 14.1 Overview  
+Identify the strategic, operational, financial, and external risks that could affect the business, along with mitigation strategies.
+
+Prompts to complete:  
+- What uncertainties threaten success?  
+- What categories do these risks fall into?  
+- How severe and likely are they?  
+- How will the business anticipate, monitor, and respond to each risk?
+
+(Placeholder for risk framework overview)
+
+## 14.2 Strategic Risks  
+Risks related to the overall direction, competitiveness, or positioning of the business.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Market Misalignment |  |  |  |  |
+| Rapid Competitor Advances |  |  |  |  |
+| Technology Obsolescence |  |  |  |  |
+| Failure to Scale |  |  |  |  |
+
+(Placeholder for strategic risk heatmap)
+
+## 14.3 Operational Risks  
+Risks that arise from internal processes, delivery, infrastructure, or staffing.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Delivery Bottlenecks |  |  |  |  |
+| Support Overload |  |  |  |  |
+| Process Failures |  |  |  |  |
+| Infrastructure Outage |  |  |  |  |
+| Knowledge Silos |  |  |  |  |
+
+(Placeholder for operational risk workflow)
+
+## 14.4 Financial Risks  
+Risks affecting revenue, cash flow, funding, or cost stability.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Lower-than-expected Sales |  |  |  |  |
+| Rising Infrastructure Costs |  |  |  |  |
+| Customer Churn |  |  |  |  |
+| Budget Cuts in Target Sectors |  |  |  |  |
+
+(Placeholder for financial scenario modeling)
+
+## 14.5 Market and External Risks  
+Risks driven by regulatory, economic, or environmental changes.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Regulatory Changes |  |  |  |  |
+| Data Privacy Requirements |  |  |  |  |
+| Economic Downturn |  |  |  |  |
+| Supply Chain Instability |  |  |  |  |
+
+(Placeholder for external risk map)
+
+## 14.6 Client and Stakeholder Risks  
+Risks emerging from client dependencies, expectations, or relationships.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Misaligned Expectations |  |  |  |  |
+| Client Dependency |  |  |  |  |
+| Slow Decision Cycles |  |  |  |  |
+| Data Quality Issues |  |  |  |  |
+
+(Placeholder for stakeholder risk matrix)
+
+## 14.7 Technical and Security Risks  
+Risks arising from the architecture, integrations, or data security.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Integration Failures |  |  |  |  |
+| Data Breach |  |  |  |  |
+| Model or Algorithm Errors |  |  |  |  |
+| Vendor Lock-in |  |  |  |  |
+
+(Placeholder for security risk diagram)
+
+## 14.8 Legal and Compliance Risks  
+Risks related to contracts, intellectual property, or regulatory frameworks.
+
+| Risk | Description | Impact | Likelihood | Mitigation |
+|------|-------------|---------|-------------|------------|
+| Contract Disputes |  |  |  |  |
+| IP Ownership Conflicts |  |  |  |  |
+| Non-Compliance with Standards |  |  |  |  |
+
+(Placeholder for compliance controls)
+
+## 14.9 Risk Monitoring Framework  
+Define how risks will be continually monitored and reviewed.
+
+Prompts:  
+- Who owns risk identification and oversight?  
+- How often are risks reviewed?  
+- What thresholds trigger escalation?  
+- What reporting mechanisms exist?
+
+Example categories:
+- Weekly operational reviews  
+- Monthly leadership check-ins  
+- Quarterly risk audits  
+- Automated alerts for technical indicators  
+
+(Placeholder for monitoring workflow)
+
+## 14.10 Scenario Planning  
+Outline potential high-impact scenarios and planned responses.
+
+Examples:
+- Sudden surge in demand → capacity plan  
+- Major system outage → disaster recovery plan  
+- Regulatory shift → compliance review  
+- Key customer loss → revenue diversification plan  
+
+(Placeholder for scenario matrix)
+
+## 14.11 Residual Risk Assessment  
+After mitigation measures, evaluate remaining risks.
+
+| Risk | Residual Impact | Residual Likelihood | Acceptable? |
+|------|------------------|----------------------|--------------|
+| Example Risk A |  |  |  |
+| Example Risk B |  |  |  |
+
+(Placeholder for residual risk chart)
+
+## 14.12 Summary of Mitigation Strategy  
+Summarise the overarching philosophy or system for risk control.
+
+Prompts:  
+- What principles guide risk decisions?  
+- How do mitigation actions align with long-term objectives?  
+- How are high-impact risks prioritised?  
+
+(Placeholder for mitigation strategy overview)
+

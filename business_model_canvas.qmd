@@ -1,0 +1,116 @@
+---
+title: Business Plan – Research Ready
+subtitle: AI Infrastructure, Automation and Reproducible Research Systems
+
+author:
+  - name: Christiaan Verhoef
+    affiliations:
+      - name: Research Ready
+        address: The Netherlands
+      - name: Value Chain Hackers Lab
+        department: Supply Chain Finance Lectorate
+        address: Windesheim University of Applied Sciences
+
+  - name: Research Ready Team
+    affiliations:
+      - name: Value Chain Hackers Network
+        address: Netherlands / Europe
+
+  - name: Partner Institutions
+    affiliations:
+      - name: Academic & Industry Collaborators
+        address: Global
+
+bibliography: references.bib
+
+format: 
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    number-sections: true
+    toc: false
+    lof: false
+    lot: false
+    titlepage: "bg-image"
+    titlepage-bg-image: "img/corner-bg.png"
+    titlepage-logo: "img/logo.png"
+    titlepage-header: "Research Ready"
+    titlepage-footer: |
+      Research Ready\
+      Tools for Applied AI & Reproducible Research\
+      https://github.com/Value-Chain-Hackers\
+    keep-tex: true
+---
+
+# Business Model Canvas
+
+## Key Partners
+- Universities and applied science labs  
+- Research groups focused on reproducibility  
+- Industry partners providing datasets  
+- Cloud or on-prem compute providers  
+- Open-source AI communities  
+- Tooling partners (n8n, Quarto, Jupyter, OpenWebUI)
+
+## Key Activities
+- Building AI-assisted research workflows  
+- Automating reporting and analysis  
+- Integrating RStudio, Jupyter, n8n, OpenWebUI  
+- Maintaining reproducible pipelines  
+- Training researchers on tools and AI adoption  
+- Supporting institutions with deployments  
+
+## Key Resources
+- AI stack (OpenWebUI, embeddings, automation workflows)  
+- Expertise in research design and reproducible workflows  
+- On-premise server infrastructure  
+- Quarto templates and automation scripts  
+- Network of collaborators (VCH, Windesheim, NICE, etc.)
+
+## Value Proposition
+- Faster, cleaner, and repeatable research workflows  
+- Automated reporting that eliminates manual work  
+- Clear reproducibility and version control  
+- AI systems tailored to academic and research contexts  
+- Reduced tool fragmentation for institutions  
+- Structured research environment for students
+
+## Customer Relationships
+- High-touch onboarding and consulting  
+- Long-term support contracts  
+- Close collaboration with research teams  
+- Automated systems reducing daily support load  
+- Documentation-first approach  
+- Community channels for ongoing updates  
+
+## Channels
+- Direct outreach to research institutions  
+- Demonstration workshops and training days  
+- LinkedIn and professional networks  
+- GitHub repositories and open-source visibility  
+- Conference presentations  
+- Word of mouth through institutional partners  
+
+## Customer Segments
+- Research groups in applied sciences  
+- Lectoren / professors running research programs  
+- Universities wanting internal AI systems  
+- SMEs needing reproducible sustainability reporting  
+- NGOs and government-linked research units  
+
+## Cost Structure
+- Server and infrastructure maintenance  
+- Development time for automation and AI workflows  
+- Support and training hours  
+- Integration and custom feature development  
+- Occasional cloud compute  
+- Administrative overhead  
+
+## Revenue Streams
+- Subscription access to hosted research tooling  
+- On-prem setup, configuration, and deployment  
+- Research automation training programs  
+- AI workflow consulting  
+- Custom integration projects  
+- SLA-based support and maintenance contracts  
+
