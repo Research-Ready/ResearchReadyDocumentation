@@ -1,0 +1,34 @@
+---
+title: Invoice Template
+description: A professional invoice template for billing clients.
+keywords: invoice template, billing, invoice, payment
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Invoice Template
+
+## Invoice Number
+- [ ] Enter the unique invoice number.
+
+## Invoice Date
+- [ ] Enter the date of the invoice.
+
+## Client Information
+- [ ] Provide client name and address.
+
+## Services/Products
+- [ ] List the services or products being billed.
+
+## Pricing Breakdown
+- [ ] Detail the pricing for each item.
+
+## Total Amount
+- [ ] Calculate the total amount due.
+
+## Payment Terms
+- [ ] Outline the payment terms and due date.

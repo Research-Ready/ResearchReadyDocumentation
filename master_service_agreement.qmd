@@ -1,0 +1,31 @@
+---
+title: Master Service Agreement
+description: A comprehensive agreement outlining the terms and conditions of service.
+keywords: master service agreement, MSA, terms of service, legal agreement
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Master Service Agreement
+
+## Scope of Services
+- [ ] Define the services covered by the agreement.
+
+## Payment Terms
+- [ ] Outline the payment terms and schedule.
+
+## Confidentiality
+- [ ] Address the protection of confidential information.
+
+## Intellectual Property
+- [ ] Define ownership of intellectual property rights.
+
+## Termination
+- [ ] Specify the conditions for terminating the agreement.
+
+## Liability
+- [ ] Outline the limitations of liability.

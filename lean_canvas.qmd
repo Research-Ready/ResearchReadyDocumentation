@@ -1,73 +1,40 @@
 ---
-title: Business Plan – Research Ready
-subtitle: AI Infrastructure, Automation and Reproducible Research Systems
-
-author:
-  - name: Christiaan Verhoef
-    affiliations:
-      - name: Research Ready
-        address: The Netherlands
-      - name: Value Chain Hackers Lab
-        department: Supply Chain Finance Lectorate
-        address: Windesheim University of Applied Sciences
-
-  - name: Research Ready Team
-    affiliations:
-      - name: Value Chain Hackers Network
-        address: Netherlands / Europe
-
-  - name: Partner Institutions
-    affiliations:
-      - name: Academic & Industry Collaborators
-        address: Global
-
-bibliography: references.bib
-
-format: 
-  titlepage-pdf:
-    documentclass: scrbook
-    classoption: ["oneside", "open=any"]
-    number-sections: true
-    toc: true
-    lof: true
-    lot: true
-    titlepage: "bg-image"
-    titlepage-bg-image: "img/corner-bg.png"
-    titlepage-logo: "img/logo.png"
-    titlepage-header: "Research Ready"
-    titlepage-footer: |
-      Research Ready\
-      Tools for Applied AI & Reproducible Research\
-      https://github.com/Value-Chain-Hackers\
-    keep-tex: true
+title: Lean Canvas
+description: A one-page business plan template.
+keywords: lean canvas, business plan, startup
 ---
 
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 # Lean Canvas
 
-## 1. Problem
-- 1.1 Problem
+## Problem
+- [ ] Describe the problem you are solving.
 
-## 2. Customer Segments
-- 1.2 Customer Segments
+## Solution
+- [ ] Outline your proposed solution.
 
-## 3. Unique Value Proposition
-- 1.3 Unique Value Proposition
+## Key Metrics
+- [ ] Identify the key metrics to track progress.
 
-## 4. Solution
-- 1.4 Solution
+## Unique Value Proposition
+- [ ] What makes your solution unique?
 
-## 5. Channels
-- 1.5 Channels
+## Unfair Advantage
+- [ ] What can't be easily copied or bought?
 
-## 6. Revenue Streams
-- 1.6 Revenue Streams
+## Channels
+- [ ] How will you reach your customers?
 
-## 7. Cost Structure
-- 1.7 Cost Structure
+## Customer Segments
+- [ ] Who are your target customers?
 
-## 8. Key Metrics
-- 1.8 Key Metrics
+## Cost Structure
+- [ ] What are your major costs?
 
-## 9. Unfair Advantage
-- 1.9 Unfair Advantage
+## Revenue Streams
+- [ ] How will you generate revenue?

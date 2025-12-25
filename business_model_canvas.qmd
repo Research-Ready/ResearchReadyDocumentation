@@ -1,4 +1,4 @@
----
+------#x0a;description: A comprehensive document.---#x0a;keywords: document, keywords, seo, business
 title: Business Plan – Research Ready
 subtitle: AI Infrastructure, Automation and Reproducible Research Systems
 
@@ -60,6 +60,14 @@ format:
 - Training researchers on tools and AI adoption  
 - Supporting institutions with deployments  
 
+### Key Activities Bar Chart
+```{r}
+# R code for bar chart
+activities <- c(20, 25, 15, 10, 15, 15)
+activity_names <- c("AI Workflows", "Automation", "Integration", "Reproducibility", "Training", "Support")
+barplot(activities, names.arg = activity_names, main = "Key Activities", xlab = "Activity", ylab = "Priority")
+```
+
 ## Key Resources
 - AI stack (OpenWebUI, embeddings, automation workflows)  
 - Expertise in research design and reproducible workflows  
@@ -83,6 +91,14 @@ format:
 - Documentation-first approach  
 - Community channels for ongoing updates  
 
+### Customer Relationships Bar Chart
+```{r}
+# R code for bar chart
+relationships <- c(25, 20, 15, 10, 15, 15)
+relationship_names <- c("Onboarding", "Support", "Collaboration", "Automation", "Documentation", "Community")
+barplot(relationships, names.arg = relationship_names, main = "Customer Relationships", xlab = "Relationship Type", ylab = "Priority")
+```
+
 ## Channels
 - Direct outreach to research institutions  
 - Demonstration workshops and training days  
@@ -90,6 +106,14 @@ format:
 - GitHub repositories and open-source visibility  
 - Conference presentations  
 - Word of mouth through institutional partners  
+
+### Cost Structure Pie Chart
+```{r}
+# R code for pie chart
+costs <- c(30, 40, 15, 15)
+labels <- c("Server & Infrastructure", "Development", "Support & Delivery", "Admin")
+pie(costs, labels = labels, main = "Cost Structure Breakdown")
+```
 
 ## Customer Segments
 - Research groups in applied sciences  
@@ -101,10 +125,18 @@ format:
 ## Cost Structure
 - Server and infrastructure maintenance  
 - Development time for automation and AI workflows  
-- Support and training hours  
+- Support and delivery hours  
 - Integration and custom feature development  
 - Occasional cloud compute  
 - Administrative overhead  
+
+### Cost Structure Pie Chart
+```{r}
+# R code for pie chart
+costs <- c(30, 40, 15, 15)
+labels <- c("Server & Infrastructure", "Development", "Support & Delivery", "Admin")
+pie(costs, labels = labels, main = "Cost Structure Breakdown")
+```
 
 ## Revenue Streams
 - Subscription access to hosted research tooling  
@@ -112,5 +144,4 @@ format:
 - Research automation training programs  
 - AI workflow consulting  
 - Custom integration projects  
-- SLA-based support and maintenance contracts  
-
+- SLA-based support and maintenance contracts

@@ -1,0 +1,31 @@
+---
+title: Quote Template
+description: A professional quote template for presenting pricing to clients.
+keywords: quote template, pricing, estimate, proposal
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Quote Template
+
+## Quote Number
+- [ ] Enter the unique quote number.
+
+## Date
+- [ ] Enter the date of the quote.
+
+## Client Information
+- [ ] Provide client name and address.
+
+## Services/Products
+- [ ] List the services or products being quoted.
+
+## Pricing Breakdown
+- [ ] Detail the pricing for each item.
+
+## Total Amount
+- [ ] Calculate the total amount due.

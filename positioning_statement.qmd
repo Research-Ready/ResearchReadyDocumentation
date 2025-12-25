@@ -1,0 +1,28 @@
+---
+title: Positioning Statement
+description: A clear and concise statement of how your product/service is positioned in the market.
+keywords: positioning statement, value proposition, target market
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Positioning Statement
+
+## For (Target Customer)
+- [ ] Describe the ideal customer.
+
+## Who (Need/Problem)
+- [ ] What problem are you solving for them?
+
+## Our Product/Service
+- [ ] What is your product/service?
+
+## Unlike (Competitors)
+- [ ] What makes you different from the competition?
+
+## We (Benefit)
+- [ ] What key benefit do you offer?

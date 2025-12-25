@@ -1,0 +1,28 @@
+---
+title: Feature Roadmap
+description: A visual plan outlining the future development of the product.
+keywords: feature roadmap, product development, future features
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Feature Roadmap
+
+## Current Features
+- [ ] List the features currently available.
+
+## Planned Features (Next 3 Months)
+- [ ] Describe the features planned for the next 3 months.
+
+## Planned Features (6-12 Months)
+- [ ] Describe the features planned for 6-12 months.
+
+## Long-Term Vision
+- [ ] Outline the long-term vision for the product.
+
+## Key Metrics
+- [ ] Identify the key metrics to track feature success.

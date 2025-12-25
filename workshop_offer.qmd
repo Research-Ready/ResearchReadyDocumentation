@@ -1,75 +1,31 @@
 ---
-title: Business Plan – Research Ready
-subtitle: AI Infrastructure, Automation and Reproducible Research Systems
-
-author:
-  - name: Christiaan Verhoef
-    affiliations:
-      - name: Research Ready
-        address: The Netherlands
-      - name: Value Chain Hackers Lab
-        department: Supply Chain Finance Lectorate
-        address: Windesheim University of Applied Sciences
-
-  - name: Research Ready Team
-    affiliations:
-      - name: Value Chain Hackers Network
-        address: Netherlands / Europe
-
-  - name: Partner Institutions
-    affiliations:
-      - name: Academic & Industry Collaborators
-        address: Global
-
-bibliography: references.bib
-
-format: 
-  titlepage-pdf:
-    documentclass: scrbook
-    classoption: ["oneside", "open=any"]
-    number-sections: true
-    toc: true
-    lof: true
-    lot: true
-    titlepage: "bg-image"
-    titlepage-bg-image: "img/corner-bg.png"
-    titlepage-logo: "img/logo.png"
-    titlepage-header: "Research Ready"
-    titlepage-footer: |
-      Research Ready\
-      Tools for Applied AI & Reproducible Research\
-      https://github.com/Value-Chain-Hackers\
-    keep-tex: true
+title: Workshop Offer
+description: A detailed offer for workshops and training sessions.
+keywords: workshop offer, training, workshops, events
 ---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 # Workshop Offer
 
-## 1. Workshop Summary
-- Workshop Summary
+## Workshop Title
+- [ ] Enter the title of the workshop.
 
-## 2. Objectives
-- Objectives
+## Workshop Description
+- [ ] Provide a detailed description of the workshop.
 
-## 3. Agenda
-- Agenda
+## Learning Objectives
+- [ ] List the key learning objectives.
 
-## 4. Deliverables
-- Deliverables
+## Target Audience
+- [ ] Identify the ideal participants.
 
-## 5. Pricing
-- Pricing
-
-## 6. Requirements
-- Requirements
-
-## Deliverables
-
-[Placeholder for Deliverables]
+## Workshop Schedule
+- [ ] Outline the workshop schedule.
 
 ## Pricing
-
-[Placeholder for Pricing]
-
-## Requirements
-
-[Placeholder for Requirements]
+- [ ] Specify the workshop pricing.

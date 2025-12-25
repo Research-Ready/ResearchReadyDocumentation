@@ -1,0 +1,28 @@
+---
+title: Budget Forecast Template
+description: A template for forecasting project or business budgets.
+keywords: budget forecast, financial projection, budgeting, expenses
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Budget Forecast Template
+
+## Revenue Projections
+- [ ] Forecast expected revenue streams.
+
+## Expense Budget
+- [ ] Detail anticipated expenses.
+
+## Profit and Loss Statement
+- [ ] Project the profit and loss.
+
+## Cash Flow Statement
+- [ ] Forecast cash inflows and outflows.
+
+## Key Assumptions
+- [ ] List the key assumptions underlying the forecast.

@@ -1,0 +1,28 @@
+---
+title: NDA Template
+description: A standard non-disclosure agreement template.
+keywords: NDA, non-disclosure agreement, confidentiality, legal
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# NDA Template
+
+## Parties Involved
+- [ ] Identify the parties entering the agreement.
+
+## Definition of Confidential Information
+- [ ] Clearly define what constitutes confidential information.
+
+## Obligations of Receiving Party
+- [ ] Outline the responsibilities of the receiving party.
+
+## Term and Termination
+- [ ] Define the duration of the agreement and conditions for termination.
+
+## Governing Law
+- [ ] Indicate the jurisdiction governing the agreement.

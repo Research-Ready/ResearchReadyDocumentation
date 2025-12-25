@@ -1,92 +1,34 @@
 ---
-title: Business Plan – Research Ready
-subtitle: AI Infrastructure, Automation and Reproducible Research Systems
-
-author:
-  - name: Christiaan Verhoef
-    affiliations:
-      - name: Research Ready
-        address: The Netherlands
-      - name: Value Chain Hackers Lab
-        department: Supply Chain Finance Lectorate
-        address: Windesheim University of Applied Sciences
-
-  - name: Research Ready Team
-    affiliations:
-      - name: Value Chain Hackers Network
-        address: Netherlands / Europe
-
-  - name: Partner Institutions
-    affiliations:
-      - name: Academic & Industry Collaborators
-        address: Global
-
-bibliography: references.bib
-
-format: 
-  titlepage-pdf:
-    documentclass: scrbook
-    classoption: ["oneside", "open=any"]
-    number-sections: true
-    toc: true
-    lof: true
-    lot: true
-    titlepage: "bg-image"
-    titlepage-bg-image: "img/corner-bg.png"
-    titlepage-logo: "img/logo.png"
-    titlepage-header: "Research Ready"
-    titlepage-footer: |
-      Research Ready\
-      Tools for Applied AI & Reproducible Research\
-      https://github.com/Value-Chain-Hackers\
-    keep-tex: true
+title: Target Persona
+description: A detailed profile of the ideal customer.
+keywords: target persona, ideal customer, customer profile
 ---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
 
 # Target Persona
 
-## 1. Role
-- Role
+## Name
+- [ ] Give the persona a representative name.
 
-## 2. Background
-- Background
+## Demographics
+- [ ] Age, gender, location, income, education.
 
-## 3. Goals
-- Goals
+## Job Title & Responsibilities
+- [ ] Describe their role and daily tasks.
 
-## 4. Challenges
-- Challenges
+## Goals & Challenges
+- [ ] What are they trying to achieve, and what obstacles do they face?
 
-## 5. Desired Outcomes
-- Desired Outcomes
+## Pain Points
+- [ ] What frustrations do they experience?
 
-## 6. Buying Triggers
-- Buying Triggers
+## Motivations
+- [ ] What drives their decisions?
 
-## 7. Barriers to Adoption
-- Barriers to Adoption
-
-## 8. How Research Ready Helps
-- How Research Ready Helps
-
-## 9. Messaging to Use
-- Messaging to Use
-
-## Desired Outcomes
-
-[Placeholder for Desired Outcomes]
-
-## Buying Triggers
-
-[Placeholder for Buying Triggers]
-
-## Barriers to Adoption
-
-[Placeholder for Barriers to Adoption]
-
-## How Research Ready Helps
-
-[Placeholder for How Research Ready Helps]
-
-## Messaging to Use
-
-[Placeholder for Messaging to Use]
+## Technology Usage
+- [ ] What tools and platforms do they use?

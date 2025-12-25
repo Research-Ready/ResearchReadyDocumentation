@@ -1,0 +1,31 @@
+---
+title: Data Security Policy
+description: A comprehensive policy outlining data security measures.
+keywords: data security, privacy, policy, security measures
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Data Security Policy
+
+## Purpose
+- [ ] State the purpose of the policy.
+
+## Scope
+- [ ] Define the data covered by the policy.
+
+## Security Measures
+- [ ] Describe the technical and organizational security measures.
+
+## Access Control
+- [ ] Outline the rules for accessing sensitive data.
+
+## Incident Response
+- [ ] Detail the steps to take in case of a security incident.
+
+## Compliance
+- [ ] Address relevant data security regulations.
