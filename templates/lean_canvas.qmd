@@ -1,0 +1,72 @@
+---
+title: Business Plan – Research Ready
+subtitle: AI Infrastructure, Automation and Reproducible Research Systems
+
+author:
+  - name: Christiaan Verhoef
+    affiliations:
+      - name: Research Ready
+        address: The Netherlands
+      - name: Value Chain Hackers Lab
+        department: Supply Chain Finance Lectorate
+        address: Windesheim University of Applied Sciences
+
+  - name: Research Ready Team
+    affiliations:
+      - name: Value Chain Hackers Network
+        address: Netherlands / Europe
+
+  - name: Partner Institutions
+    affiliations:
+      - name: Academic & Industry Collaborators
+        address: Global
+
+bibliography: references.bib
+
+format: 
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    number-sections: true
+    toc: false
+    lof: false
+    lot: false
+    titlepage: "bg-image"
+    titlepage-bg-image: "img/corner-bg.png"
+    titlepage-logo: "img/logo.png"
+    titlepage-header: "Research Ready"
+    titlepage-footer: |
+      Research Ready\
+      Tools for Applied AI & Reproducible Research\
+      https://github.com/Value-Chain-Hackers\
+    keep-tex: true
+---
+
+# Lean Canvas
+
+## Problem
+- [ ] Describe the problem you are solving.
+
+## Solution
+- [ ] Outline your proposed solution.
+
+## Key Metrics
+- [ ] Identify the key metrics to track progress.
+
+## Unique Value Proposition
+- [ ] What makes your solution unique?
+
+## Unfair Advantage
+- [ ] What can't be easily copied or bought?
+
+## Channels
+- [ ] How will you reach your customers?
+
+## Customer Segments
+- [ ] Who are your target customers?
+
+## Cost Structure
+- [ ] List your major costs.
+
+## Revenue Streams
+- [ ] How will you generate revenue?

@@ -1,0 +1,56 @@
+---
+title: Business Plan – Research Ready (Partner Pitch Deck)
+subtitle: AI Infrastructure, Automation and Reproducible Research Systems
+author:
+  - name: Christiaan Verhoef
+    affiliations:
+      - name: Research Ready
+        address: The Netherlands
+      - name: Value Chain Hackers Lab
+        department: Supply Chain Finance Lectorate
+        address: Windesheim University of Applied Sciences
+bibliography: references.bib
+format:
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    number-sections: true
+    toc: false
+    lof: false
+    lot: false
+    titlepage: "bg-image"
+    titlepage-bg-image: "img/corner-bg.png"
+    titlepage-logo: "img/logo.png"
+    titlepage-header: "Research Ready"
+    titlepage-footer: |
+      Research Ready\
+      Tools for Applied AI & Reproducible Research\
+      https://github.com/Value-Chain-Hackers\
+    keep-tex: true
+---
+
+# Partnership Opportunity: Research Ready
+
+## Introduction
+- [ ] Introduce Research Ready and its mission.
+
+## Our Vision
+- [ ] Share our long-term vision for AI and research.
+
+## Collaboration Opportunities
+- [ ] Detail specific areas for partnership.
+
+## Mutual Benefits
+- [ ] Explain the benefits for potential partners.
+
+## Our Technology
+- [ ] Showcase our core technologies and capabilities.
+
+## Case Studies
+- [ ] Present successful collaborations.
+
+## Next Steps
+- [ ] Outline the process for becoming a partner.
+
+## Contact Information
+- [ ] Provide contact details for partnership inquiries.
