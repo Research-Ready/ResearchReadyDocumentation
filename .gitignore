@@ -1,1 +1,9 @@
 /.luarc.json
+
+*.html
+*.pdf
+*.tex
+*.png
+*.jpg
+*.jpeg
+*.svg
